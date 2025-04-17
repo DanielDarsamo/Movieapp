@@ -62,4 +62,15 @@ input{
     text-align: center;
     background-color: #151f30;
     width:300px;
+    transition: all 0.3s ease;
+}
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    cursor: pointer; 
+
+
+}
+.thumbnail:hover {
+    opacity: 0.9; 
 }
